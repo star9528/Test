@@ -2,7 +2,8 @@
 import java.util.Random;
 import java.util.Scanner;
 public class Guess {
-    public static void toGuess() {
+    public static int toGuess() {
+        System.out.println("欢迎来到猜字游戏");
         Random random = new Random();
         int a = random.nextInt(101);
 
@@ -21,8 +22,10 @@ public class Guess {
                 }
             }
         }
+        return 1;
     }
     public static void main(String[] args) {
             toGuess();
+
     }
 }
