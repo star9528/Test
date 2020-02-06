@@ -1,14 +1,18 @@
 package NowCoder;
 
-class Test{
-    public String toString() {
-        System.out.print("aaa");
-        return "bbb";
-    }
-
-
+public class Test{
+        public String toLowerCase(String a,String b) {
+            int x = 0;
+            if(a.length >= b.length){
+                x = a.length;
+            }else{
+                x = b.length;
+            }
+            
+        }
     public static void main(String[] args) {
-        System.out.println(new Test());
+        Test t = new Test();
+        String str = "Hello";
+        t.toLowerCase(str);
     }
 }
-
