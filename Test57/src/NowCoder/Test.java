@@ -5,10 +5,9 @@ public class Test{
             int x = 0;
             if(a.length >= b.length){
                 x = a.length;
-            }else{
+            }else {
                 x = b.length;
             }
-            
         }
     public static void main(String[] args) {
         Test t = new Test();
